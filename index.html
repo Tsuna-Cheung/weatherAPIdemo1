@@ -33,7 +33,9 @@
     <script id='myTemplate' type='text/ractive'>
 	
 			{{#weather}}
+            <li><img>{{weather_state_abbr}}</img></li>
 			<li>{{weather_state_name}}</li>
+            <li>{{wind_speed}}</li>
 			{{/weather}}
 
     </script>
